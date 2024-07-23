@@ -36,6 +36,6 @@ for i, row in df.iterrows():
         pagepath = row['pagePath']
         st.write(f'[{pagepath}](https://speed1313.github.io/posts/{pagepath})')
     with cols[2]:
-        st.markdown(row['screenPageViews'])
+        st.markdown(int(row['screenPageViews']))
 
 
