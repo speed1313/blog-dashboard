@@ -95,7 +95,7 @@ class GoogleAnalytics4Report:
 
 
 
-"""アクティブユーザーの過去1年間の推移データを取得(GA4)"""
+
 
 # アカウント設定
 # credential.jsonを/credentialに設置 && GA4 プロパティIDを設定

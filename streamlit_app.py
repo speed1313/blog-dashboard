@@ -12,13 +12,9 @@ st.set_page_config(
 
 st.header("Blog Post View Rankings Over the Past Year", divider='gray')
 
-''
 
 
 df = pd.read_csv('ranking.csv')
-# pagePath, screenPageViews
-
-# df
 
 cols = st.columns(3)
 
